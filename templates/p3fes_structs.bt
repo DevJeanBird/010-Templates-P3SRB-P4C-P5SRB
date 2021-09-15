@@ -1,0 +1,29 @@
+
+typedef struct
+{
+    u8 Strength <name = "Strength">;
+    u8 Magic <name = "Magic">;
+    u8 Endurance <name = "Endurance">;
+    u8 Agility <name = "Agility">;
+    u8 Luck <name = "Luck">;
+} PersonaStats;
+
+typedef struct
+{
+    AffinityStatus PhysAffinity <name = "Slash">;
+    AffinityStatus FireAffinity <name = "Pierce">;
+    AffinityStatus IceAffinity <name = "Strike">;
+    AffinityStatus ElecAffinity <name = "Fire">;
+    AffinityStatus WindAffinity <name = "Ice">;
+    AffinityStatus AlmightyAffinity <name = "Elec">;
+    AffinityStatus LightAffinity <name = "Wind">;
+    AffinityStatus DarkAffinity <name = "Almighty">;
+    AffinityStatus PanicAffinity <name = "Light">;
+    AffinityStatus PoisonAffinity <name = "Dark">;
+    AffinityStatus FearAffinity <name = "???">;
+    AffinityStatus RageAffinity <name = "Poison">;
+    AffinityStatus DizzyAffinity <name = "Charm">;
+    AffinityStatus ExhaustionAffinity <name = "Panic">;
+    AffinityStatus EnervationAffinity <name = "Fear">;
+    AffinityStatus SilenceAffinity <name = "Silence">;
+} ElementalAffinities <name = "Elemental Affinities">;
